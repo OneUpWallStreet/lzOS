@@ -4,6 +4,30 @@ Lecture By Neil Rhodes - [CS 134 OS—7: Segmentation on x86](https://www.youtub
 
 ---
 
+# Very Good Segmentation example from os-dev.pdf
+
+As an example of this, suppose that the programmer wanted to store the value of ax at the address `0x4fe56`.
+
+Without Segmentation, the best he/she could do:
+
+`mov [0xffff], ax`
+
+Wherby, using a segment register, the task could be achieved as follows:
+
+```
+mov bx, 0x4000
+mov es, bx
+mov [es:0xfe56], ax
+```
+
+Let's see how this works, remember that  `Physical Address = (Segment * 16) + Offset`
+
+`Physical Address = (0x4000 * 16) + 0xfe56`
+
+The calculated physical address is 327254, which in hexadecimal is `0x4fe56`. This matches the intended address of `0x4fe56`.
+
+---
+
 ## Code Explanation 
 
 ```
