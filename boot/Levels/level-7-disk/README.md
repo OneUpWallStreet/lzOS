@@ -6,6 +6,7 @@ Here a few videos that I used for reference.
 - [How do hard drives work? - Kanawat Senanan](https://youtu.be/wteUW2sL7bc?si=LZkua9ck8PNRKiDL)
 - [Binary Addition & Overflow - Computerphile](https://youtu.be/WN8i5cwjkSE?si=Mm2XzLUqLmupiIlg)
   - Great video! Here's the next one in the series -> [Binary: Plusses & Minuses (Why We Use Two's Complement) - Computerphile](https://youtu.be/lKTsv6iVxV4?si=VVPdxfUZZRWlxgTN)
+- [Making an OS (x86) Chapter 5 - Reading the disk with BIOS](https://youtu.be/3IDm_14_tAU)
 
 
 BIOS Interupt `int 0x13` details -> [INT 13,2 - Read Disk Sectors](https://stanislavs.org/helppc/int_13-2.html)
